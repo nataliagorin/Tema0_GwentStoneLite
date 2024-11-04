@@ -1,4 +1,9 @@
 package gwentstone_lite.cards.special_cards;
 
-public class Miraj {
+import gwentstone_lite.cards.Card;
+
+public class Miraj extends Card {
+    public Miraj(final Card card) {
+        super(card);
+    }
 }

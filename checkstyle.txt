@@ -1,2 +1,22 @@
 Starting audit...
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\Action.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\Card.java:1:9: Name 'gwentstone_lite.cards' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\heroes\EmpressThorina.java:1:9: Name 'gwentstone_lite.cards.heroes' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\heroes\GeneralKocioraw.java:1:9: Name 'gwentstone_lite.cards.heroes' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\heroes\KingMudface.java:1:9: Name 'gwentstone_lite.cards.heroes' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\heroes\LordRoyce.java:1:9: Name 'gwentstone_lite.cards.heroes' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\minions\Berserker.java:1:9: Name 'gwentstone_lite.cards.minions' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\minions\Goliath.java:1:9: Name 'gwentstone_lite.cards.minions' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\minions\Sentinel.java:1:9: Name 'gwentstone_lite.cards.minions' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\minions\Warden.java:1:9: Name 'gwentstone_lite.cards.minions' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\special_cards\Disciple.java:1:9: Name 'gwentstone_lite.cards.special_cards' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\special_cards\Miraj.java:1:9: Name 'gwentstone_lite.cards.special_cards' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\special_cards\TheCursedOne.java:1:9: Name 'gwentstone_lite.cards.special_cards' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\cards\special_cards\TheRipper.java:1:9: Name 'gwentstone_lite.cards.special_cards' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\GameCommand.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\GameSession.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\GwentStoneLite.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\OutputBuilder.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstone_lite\Player.java:1:9: Name 'gwentstone_lite' must match pattern '^[a-z]+(\.[a-zA-Z_][a-zA-Z0-9_]*)*$'. [PackageName]
 Audit done.
+Checkstyle ends with 19 errors.

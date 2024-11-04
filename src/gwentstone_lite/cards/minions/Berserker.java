@@ -1,4 +1,9 @@
 package gwentstone_lite.cards.minions;
 
-public class Berserker {
+import gwentstone_lite.cards.Card;
+
+public class Berserker extends Card {
+    public Berserker(final Card card) {
+        super(card);
+    }
 }
