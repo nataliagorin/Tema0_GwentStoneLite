@@ -4,7 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="" />
+    <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test01_game_start.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test01_game_start.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test02_place_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test02_place_card.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test04_attack_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test04_attack_card.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test08_attack_hero.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test08_attack_hero.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test09_attack_hero_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test09_attack_hero_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test16_big_game.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test16_big_game.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +43,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2oOkw1ZFQE0lQIJ5bE1I9BuApwE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +58,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -38,6 +68,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="tema0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730748247528</updated>
-      <workItem from="1730748248673" duration="2036000" />
+      <workItem from="1730748248673" duration="2242000" />
+      <workItem from="1730928051500" duration="2234000" />
     </task>
     <servers />
   </component>

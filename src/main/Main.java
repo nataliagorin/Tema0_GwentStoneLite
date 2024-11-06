@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import checker.CheckerConstants;
 import fileio.Input;
+import gwentstone_lite.GwentStoneLite;
 
 import java.io.File;
 import java.io.IOException;
@@ -87,6 +88,9 @@ public final class Main {
          * output.add(objectNode);
          *
          */
+
+        GwentStoneLite gwentStone = new GwentStoneLite(inputData, output);
+        gwentStone.startGwentStoneLite();
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePath2), output);

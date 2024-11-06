@@ -38,4 +38,68 @@ public class Card {
         this.frozen = false;
         this.attacked = false;
     }
+
+    public int getMana() {
+        return mana;
+    }
+
+    public void setMana(int mana) {
+        this.mana = mana;
+    }
+
+    public int getAttackDamage() {
+        return attackDamage;
+    }
+
+    public void setAttackDamage(int attackDamage) {
+        this.attackDamage = attackDamage;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public ArrayList<String> getColors() {
+        return colors;
+    }
+
+    public void setColors(ArrayList<String> colors) {
+        this.colors = colors;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public boolean isFrozen() {
+        return frozen;
+    }
+
+    public void setFrozen(boolean frozen) {
+        this.frozen = frozen;
+    }
+
+    public boolean isAttacked() {
+        return attacked;
+    }
+
+    public void setAttacked(boolean attacked) {
+        this.attacked = attacked;
+    }
 }
