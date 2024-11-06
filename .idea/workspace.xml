@@ -7,7 +7,9 @@
     <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test01_game_start.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test01_game_start.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test02_place_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test02_place_card.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test04_attack_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test04_attack_card.json" afterDir="false" />
@@ -25,11 +27,7 @@
       <change beforePath="$PROJECT_DIR$/result/out_test16_big_game.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test16_big_game.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730748247528</updated>
       <workItem from="1730748248673" duration="2242000" />
-      <workItem from="1730928051500" duration="2234000" />
+      <workItem from="1730928051500" duration="3058000" />
     </task>
     <servers />
   </component>

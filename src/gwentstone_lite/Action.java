@@ -105,4 +105,16 @@ public class Action {
         player.getHeroCard().setFrozen(false);
         player.getHeroCard().setAttacked(false);
     }
+
+    public String checkRow(final Card card) {
+        switch (card.getName()) {
+            case "The Ripper":
+            case "Miraj":
+            case "Goliath":
+            case "Warden":
+                return "front";
+            default:
+                return "back";
+        }
+    }
 }

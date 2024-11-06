@@ -1,6 +1,7 @@
 package gwentstone_lite;
 
 import fileio.ActionsInput;
+import gwentstone_lite.cards.Card;
 
 public class GameCommand {
     private GameSession game;
@@ -53,7 +54,53 @@ public class GameCommand {
     private void cardUsesAttack(ActionsInput action) {
     }
 
-    private void placeCard(ActionsInput action) {
+    public void placeCard(final ActionsInput action) {
+        Player player;
+        Card card;
+        String errorMessage = "null";
+        int row;
+
+        if (game.getPlayerTurn() == 1) {
+            player = game.getPlayerOne();
+        } else {
+            player = game.getPlayerTwo();
+        }
+
+        card = player.getHandCards().get(action.getHandIdx());
+
+
+        if (player.getMana() < card.getMana()) {
+            errorMessage = "Not enough mana to place card on table.";
+        } else {
+            row = getRow(card);
+
+            if (game.getBoard().get(row).size() == GwentStoneLite.ROWFULL) {
+                errorMessage = "Cannot place card on table since row is full.";
+            } else {
+                game.getBoard().get(row).add(player.getHandCards().remove(action.getHandIdx()));
+                player.setMana(player.getMana() - card.getMana());
+            }
+        }
+
+        if (!errorMessage.equals("null")) {
+            GwentStoneLite.getOutputCreator().createPlaceCardError(errorMessage, action);
+        }
+    }
+
+    public int getRow(final Card card) {
+        if (game.getPlayerTurn() == 1) {
+            if (GwentStoneLite.getCardActions().checkRow(card).equals("front")) {
+                return GwentStoneLite.ROW2;
+            } else {
+                return GwentStoneLite.ROW3;
+            }
+        } else {
+            if (GwentStoneLite.getCardActions().checkRow(card).equals("front")) {
+                return GwentStoneLite.ROW1;
+            } else {
+                return GwentStoneLite.ROW0;
+            }
+        }
     }
 
     private void getPlayerWins(ActionsInput action) {
@@ -65,7 +112,16 @@ public class GameCommand {
     private void getFrozenCardsOnTable(ActionsInput action) {
     }
 
-    private void getPlayerMana(ActionsInput action) {
+    public void getPlayerMana(final ActionsInput action) {
+        Player player;
+
+        if (action.getPlayerIdx() == 1) {
+            player = game.getPlayerOne();
+        } else {
+            player = game.getPlayerTwo();
+        }
+
+        GwentStoneLite.getOutputCreator().playerManaOutput(player, action);
     }
 
     private void getCardAtPosition(ActionsInput action) {
@@ -81,7 +137,8 @@ public class GameCommand {
         }
     }
 
-    private void getCardsOnTable(ActionsInput action) {
+    public void getCardsOnTable(final ActionsInput action) {
+        GwentStoneLite.getOutputCreator().boardOutput(game.getBoard(), action);
     }
 
     public void getPlayerDeck(final ActionsInput action) {

@@ -89,4 +89,45 @@ public class OutputBuilder {
 
         return heroObject;
     }
+
+    public void playerManaOutput(final Player player, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("playerIdx", action.getPlayerIdx());
+        objNode.put("output", player.getMana());
+
+        output.add(objNode);
+    }
+
+    public void boardOutput(final ArrayList<ArrayList<Card>> board, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+
+        ArrayNode bigArray = objMapper.createArrayNode();
+
+        for (ArrayList<Card> row : board) {
+            ArrayNode arrayNode = objMapper.createArrayNode();
+
+            for (Card card : row) {
+                arrayNode.add(createCardObject(card));
+            }
+
+            bigArray.add(arrayNode);
+        }
+        objNode.set("output", bigArray);
+
+        output.add(objNode);
+    }
+
+    public void createPlaceCardError(final String errorMessage, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("handIdx", action.getHandIdx());
+        objNode.put("error", errorMessage);
+
+        output.add(objNode);
+    }
 }
