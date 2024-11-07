@@ -116,8 +116,7 @@ public class Card {
 
             if (cardAttacked.getHealth() <= 0) {
                 game.getBoard().
-                        get(action.getCardAttacked().getX()).
-                        remove(action.getCardAttacked().getY());
+                        get(action.getCardAttacked().getX()).remove(action.getCardAttacked().getY());
             }
 
             attacked = true;

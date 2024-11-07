@@ -35,14 +35,10 @@ public class GameCommand {
             case "cardUsesAbility" -> cardUsesAbility(action);
             case "useAttackHero" -> useAttackHero(action);
             case "useHeroAbility" -> useHeroAbility(action);
-            case "useEnvironmentCard" -> useEnvironmentCard(action);
 
             // End Turn command
             case "endPlayerTurn" -> endPlayerTurn(action);
         }
-    }
-
-    private void useEnvironmentCard(ActionsInput action) {
     }
 
     public void useHeroAbility(final ActionsInput action) {
@@ -110,7 +106,25 @@ public class GameCommand {
         }
     }
 
-    private void cardUsesAbility(ActionsInput action) {
+    public void cardUsesAbility(final ActionsInput action) {
+        Card attacker = game.getBoard().get(action.getCardAttacker().getX()).
+                get(action.getCardAttacker().getY());
+        String errorMessage = "null";
+
+        if (attacker.isFrozen()) {
+            errorMessage = "Attacker card is frozen.";
+        } else {
+            if (attacker.hasAttacked()) {
+                errorMessage = "Attacker card has already attacked this turn.";
+            } else {
+                game.getBoard().get(action.getCardAttacker().getX()).
+                        get(action.getCardAttacker().getY()).useAbility(game, action);
+            }
+        }
+
+        if (!errorMessage.equals("null")) {
+            GwentStoneLite.getOutputCreator().cardUsesAttackError(errorMessage, action);
+        }
     }
 
     public void cardUsesAttack(final ActionsInput action) {
@@ -239,13 +253,24 @@ public class GameCommand {
         }
     }
 
-    private void getPlayerWins(ActionsInput action) {
+    public void getPlayerWins(final ActionsInput action) {
+        Player player;
+
+        if (action.getCommand().equals("getPlayerOneWins")) {
+            player = game.getPlayerOne();
+        } else {
+            player = game.getPlayerTwo();
+        }
+
+        GwentStoneLite.getOutputCreator().playerWinsOutput(player, action);
     }
 
-    private void getTotalGamesPlayed(ActionsInput action) {
+    public void getTotalGamesPlayed(final ActionsInput action) {
+        GwentStoneLite.getOutputCreator().totalGamesOutput(action);
     }
 
-    private void getFrozenCardsOnTable(ActionsInput action) {
+    public void getFrozenCardsOnTable(final ActionsInput action) {
+        GwentStoneLite.getOutputCreator().frozenCardsOutput(game.getBoard(), action);
     }
 
     public void getPlayerMana(final ActionsInput action) {

@@ -190,4 +190,43 @@ public class OutputBuilder {
         output.add(objNode);
     }
 
+    public void frozenCardsOutput(final ArrayList<ArrayList<Card>> board,
+                                  final ActionsInput action) {
+
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+
+        ArrayNode arrayNode = objMapper.createArrayNode();
+        for (ArrayList<Card> row : board) {
+            for (Card card : row) {
+                if (card.isFrozen()) {
+                    arrayNode.add(createCardObject(card));
+                }
+            }
+        }
+        objNode.set("output", arrayNode);
+
+        output.add(objNode);
+    }
+
+    public void totalGamesOutput(final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("output", GwentStoneLite.getGamesPlayed());
+
+        output.add(objNode);
+    }
+
+    public void playerWinsOutput(final Player player, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("output", player.getGamesWon());
+
+        output.add(objNode);
+    }
+
+
 }

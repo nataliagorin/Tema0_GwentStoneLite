@@ -7,26 +7,28 @@
     <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test08_attack_hero.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test08_attack_hero.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test09_attack_hero_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test09_attack_hero_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test16_big_game.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +109,7 @@
       <workItem from="1730748248673" duration="2242000" />
       <workItem from="1730928051500" duration="3058000" />
       <workItem from="1730931174659" duration="189000" />
-      <workItem from="1730967031256" duration="6083000" />
+      <workItem from="1730967031256" duration="9759000" />
     </task>
     <servers />
   </component>
