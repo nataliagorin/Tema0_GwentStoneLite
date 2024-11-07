@@ -172,7 +172,6 @@ public class GameSession {
         nextRound();
 
         for (ActionsInput action : actions) {
-
             actionPerformer.performAction(action);
             if (playerOneEndTurn && playerTwoEndTurn) {
                 nextRound();

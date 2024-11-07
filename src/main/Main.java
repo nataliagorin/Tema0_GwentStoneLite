@@ -89,8 +89,8 @@ public final class Main {
          *
          */
 
-        GwentStoneLite gwentStone = new GwentStoneLite(inputData, output);
-        gwentStone.startGwentStoneLite();
+        GwentStoneLite gwentStoneLite = new GwentStoneLite(inputData, output);
+        gwentStoneLite.startGwentStoneLite();
 
         ObjectWriter objectWriter = objectMapper.writerWithDefaultPrettyPrinter();
         objectWriter.writeValue(new File(filePath2), output);

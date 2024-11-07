@@ -107,14 +107,16 @@ public class Action {
     }
 
     public String checkRow(final Card card) {
-        switch (card.getName()) {
-            case "The Ripper":
-            case "Miraj":
-            case "Goliath":
-            case "Warden":
-                return "front";
-            default:
-                return "back";
-        }
+        return switch (card.getName()) {
+            case "The Ripper", "Miraj", "Goliath", "Warden" -> "front";
+            default -> "back";
+        };
+    }
+
+    public boolean isTank(final Card card) {
+        return switch (card.getName()) {
+            case "Goliath", "Warden" -> true;
+            default -> false;
+        };
     }
 }

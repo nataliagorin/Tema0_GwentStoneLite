@@ -130,4 +130,64 @@ public class OutputBuilder {
 
         output.add(objNode);
     }
+
+    public void cardAtPositionOutput(final Card card, final ActionsInput action,
+                                     final String errorMessage) {
+
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("x", action.getX());
+        objNode.put("y", action.getY());
+
+        if (errorMessage.equals("null")) {
+            objNode.set("output", createCardObject(card));
+        } else {
+            objNode.put("output", errorMessage);
+        }
+
+        output.add(objNode);
+    }
+
+    public void gameEnded(final String message) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("gameEnded", message);
+
+        output.add(objNode);
+    }
+
+    public void cardUsesAttackError(final String errorMessage, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+
+        ObjectNode attacker = objMapper.createObjectNode();
+        attacker.put("x", action.getCardAttacker().getX());
+        attacker.put("y", action.getCardAttacker().getY());
+        objNode.set("cardAttacker", attacker);
+
+        if (action.getCommand().equals("cardUsesAttack")
+                || action.getCommand().equals("cardUsesAbility")) {
+            ObjectNode attacked = objMapper.createObjectNode();
+            attacked.put("x", action.getCardAttacked().getX());
+            attacked.put("y", action.getCardAttacked().getY());
+            objNode.set("cardAttacked", attacked);
+        }
+
+        objNode.put("error", errorMessage);
+
+        output.add(objNode);
+    }
+
+    public void useHeroAbilityError(final String errorMessage, final ActionsInput action) {
+        ObjectNode objNode = objMapper.createObjectNode();
+
+        objNode.put("command", action.getCommand());
+        objNode.put("affectedRow", action.getAffectedRow());
+        objNode.put("error", errorMessage);
+
+        output.add(objNode);
+    }
+
 }

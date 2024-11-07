@@ -1,7 +1,10 @@
 package gwentstone_lite;
 
 import fileio.ActionsInput;
+import fileio.Coordinates;
 import gwentstone_lite.cards.Card;
+
+import java.util.ArrayList;
 
 public class GameCommand {
     private GameSession game;
@@ -42,16 +45,149 @@ public class GameCommand {
     private void useEnvironmentCard(ActionsInput action) {
     }
 
-    private void useHeroAbility(ActionsInput action) {
+    public void useHeroAbility(final ActionsInput action) {
+        Card hero = null;
+        Player player = null;
+        String errorMessage = "null";
+
+        if (game.getPlayerTurn() == 1) {
+            hero = game.getPlayerOne().getHeroCard();
+            player = game.getPlayerOne();
+        } else {
+            hero = game.getPlayerTwo().getHeroCard();
+            player = game.getPlayerTwo();
+        }
+
+        if (player.getMana() < hero.getMana()) {
+            errorMessage = "Not enough mana to use hero's ability.";
+        } else {
+            if (hero.hasAttacked()) {
+                errorMessage = "Hero has already attacked this turn.";
+            } else {
+                if (game.getPlayerTurn() == 1) {
+                    game.getPlayerOne().getHeroCard().useAbility(game, action);
+                } else {
+                    game.getPlayerTwo().getHeroCard().useAbility(game, action);
+                }
+            }
+        }
+
+        if (!errorMessage.equals("null")) {
+            GwentStoneLite.getOutputCreator().useHeroAbilityError(errorMessage, action);
+        }
     }
 
-    private void useAttackHero(ActionsInput action) {
+    public void useAttackHero(final ActionsInput action) {
+        Card attacker = game.getBoard().get(action.getCardAttacker().getX()).
+                get(action.getCardAttacker().getY());
+        String errorMessage = "null";
+
+        if (attacker.isFrozen()) {
+            errorMessage = "Attacker card is frozen.";
+        } else {
+            if (attacker.hasAttacked()) {
+                errorMessage = "Attacker card has already attacked this turn.";
+            } else {
+                if (action.getCardAttacker().getX() == GwentStoneLite.ROW0
+                        || action.getCardAttacker().getX() == GwentStoneLite.ROW1) {
+                    if (checkTanks(GwentStoneLite.ROW2)) {
+                        errorMessage = "Attacked card is not of type 'Tank'.";
+                    } else {
+                        attacker.useAttack(game, action);
+                    }
+                } else {
+                    if (checkTanks(GwentStoneLite.ROW1)) {
+                        errorMessage = "Attacked card is not of type 'Tank'.";
+                    } else {
+                        attacker.useAttack(game, action);
+                    }
+                }
+            }
+        }
+
+        if (!errorMessage.equals("null")) {
+            GwentStoneLite.getOutputCreator().cardUsesAttackError(errorMessage, action);
+        }
     }
 
     private void cardUsesAbility(ActionsInput action) {
     }
 
-    private void cardUsesAttack(ActionsInput action) {
+    public void cardUsesAttack(final ActionsInput action) {
+        Coordinates cardAttackerCoord = action.getCardAttacker();
+        Coordinates cardAttackedCoord = action.getCardAttacked();
+
+        Card cardAttacker = game.getBoard().
+                get(cardAttackerCoord.getX()).get(cardAttackerCoord.getY());
+        Card cardAttacked = game.getBoard().
+                get(cardAttackedCoord.getX()).get(cardAttackedCoord.getY());
+
+        String errorMessage = "null";
+
+        if (cardAttackerCoord.getX() == GwentStoneLite.ROW0
+                || cardAttackerCoord.getX() == GwentStoneLite.ROW1) {
+            if (cardAttackedCoord.getX() != GwentStoneLite.ROW2
+                    && cardAttackedCoord.getX() != GwentStoneLite.ROW3) {
+                errorMessage = "Attacked card does not belong to the enemy.";
+            } else {
+                if (cardAttacker.hasAttacked()) {
+                    errorMessage = "Attacker card has already attacked this turn.";
+                } else {
+                    if (cardAttacker.isFrozen()) {
+                        errorMessage = "Attacker card is frozen.";
+                    } else {
+                        if (checkTanks(GwentStoneLite.ROW2)) {
+                            if (!GwentStoneLite.getCardActions().isTank(cardAttacked)) {
+                                errorMessage = "Attacked card is not of type 'Tank'.";
+                            } else {
+                                cardAttacker.useAttack(game, action);
+                            }
+                        } else {
+                            cardAttacker.useAttack(game, action);
+                        }
+                    }
+                }
+            }
+        } else {
+            if (cardAttackedCoord.getX() != GwentStoneLite.ROW0
+                    && cardAttackedCoord.getX() != GwentStoneLite.ROW1) {
+                errorMessage = "Attacked card does not belong to the enemy.";
+            } else {
+                if (cardAttacker.hasAttacked()) {
+                    errorMessage = "Attacker card has already attacked this turn.";
+                } else {
+                    if (cardAttacker.isFrozen()) {
+                        errorMessage = "Attacker card is frozen.";
+                    } else {
+                        if (checkTanks(GwentStoneLite.ROW1)) {
+                            if (!GwentStoneLite.getCardActions().isTank(cardAttacked)) {
+                                errorMessage = "Attacked card is not of type 'Tank'.";
+                            } else {
+                                cardAttacker.useAttack(game, action);
+                            }
+                        } else {
+                            cardAttacker.useAttack(game, action);
+                        }
+                    }
+                }
+            }
+        }
+
+        if (!errorMessage.equals("null")) {
+            GwentStoneLite.getOutputCreator().cardUsesAttackError(errorMessage, action);
+        }
+    }
+
+    public boolean checkTanks(final int row) {
+        ArrayList<ArrayList<Card>> board = game.getBoard();
+
+        for (Card card : board.get(row)) {
+            if (GwentStoneLite.getCardActions().isTank(card)) {
+                return true;
+            }
+        }
+
+        return false;
     }
 
     public void placeCard(final ActionsInput action) {
@@ -124,7 +260,17 @@ public class GameCommand {
         GwentStoneLite.getOutputCreator().playerManaOutput(player, action);
     }
 
-    private void getCardAtPosition(ActionsInput action) {
+    public void getCardAtPosition(final ActionsInput action) {
+        Card card = null;
+        String errorMessage = "null";
+
+        if (game.getBoard().get(action.getX()).size() <= action.getY()) {
+            errorMessage = "No card available at that position.";
+        } else {
+            card = game.getBoard().get(action.getX()).get(action.getY());
+        }
+
+        GwentStoneLite.getOutputCreator().cardAtPositionOutput(card, action, errorMessage);
     }
 
     public void getPlayerHero(final ActionsInput action) {

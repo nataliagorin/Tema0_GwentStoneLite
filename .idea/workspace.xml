@@ -10,9 +10,6 @@
       <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test02_place_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test02_place_card.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test03_place_card_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test04_attack_card.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test04_attack_card.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test05_attack_card_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" afterDir="false" />
@@ -23,11 +20,13 @@
       <change beforePath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test16_big_game.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test16_big_game.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test15_multiple_games_invalid.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/out_test16_big_game.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +43,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -52,20 +54,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.Main" />
@@ -104,6 +106,8 @@
       <updated>1730748247528</updated>
       <workItem from="1730748248673" duration="2242000" />
       <workItem from="1730928051500" duration="3058000" />
+      <workItem from="1730931174659" duration="189000" />
+      <workItem from="1730967031256" duration="6083000" />
     </task>
     <servers />
   </component>

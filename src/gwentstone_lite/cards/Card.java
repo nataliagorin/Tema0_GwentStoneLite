@@ -1,6 +1,9 @@
 package gwentstone_lite.cards;
 
+import fileio.ActionsInput;
 import fileio.CardInput;
+import gwentstone_lite.GameSession;
+import gwentstone_lite.GwentStoneLite;
 
 import java.util.ArrayList;
 
@@ -95,11 +98,57 @@ public class Card {
         this.frozen = frozen;
     }
 
-    public boolean isAttacked() {
+    public boolean hasAttacked() {
         return attacked;
     }
 
     public void setAttacked(boolean attacked) {
         this.attacked = attacked;
+    }
+
+
+    public void useAttack(final GameSession game, final ActionsInput action) {
+        if (action.getCommand().equals("cardUsesAttack")) {
+            Card cardAttacked = game.getBoard().
+                    get(action.getCardAttacked().getX()).get(action.getCardAttacked().getY());
+
+            cardAttacked.setHealth(cardAttacked.getHealth() - attackDamage);
+
+            if (cardAttacked.getHealth() <= 0) {
+                game.getBoard().
+                        get(action.getCardAttacked().getX()).
+                        remove(action.getCardAttacked().getY());
+            }
+
+            attacked = true;
+        } else {
+            Card hero = null;
+            Card attacker = game.getBoard().
+                    get(action.getCardAttacker().getX()).get(action.getCardAttacker().getY());
+
+            if (game.getPlayerTurn() == 1) {
+                hero = game.getPlayerTwo().getHeroCard();
+            } else {
+                hero = game.getPlayerOne().getHeroCard();
+            }
+
+            hero.setHealth(hero.getHealth() - attacker.getAttackDamage());
+            attacker.setAttacked(true);
+
+            if (hero.getHealth() <= 0) {
+                if (game.getPlayerTurn() == 1) {
+                    GwentStoneLite.getOutputCreator().gameEnded("Player one killed the enemy hero.");
+                    game.getPlayerOne().setGamesWon(game.getPlayerOne().getGamesWon() + 1);
+                } else {
+                    GwentStoneLite.getOutputCreator().gameEnded("Player two killed the enemy hero.");
+                    game.getPlayerTwo().setGamesWon(game.getPlayerTwo().getGamesWon() + 1);
+                }
+
+                game.setGameEnded(true);
+            }
+        }
+    }
+
+    public void useAbility(final GameSession game, final ActionsInput action) {
     }
 }
