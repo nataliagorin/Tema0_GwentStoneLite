@@ -7,28 +7,46 @@
     <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test06_use_card_ability.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test07_use_card_ability_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test10_use_hero_ability_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test11_use_hero_ability_2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test12_use_hero_ability_1_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test13_use_hero_ability_2_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/result/out_test14_multiple_games_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GwentStoneLite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/EmpressThorina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/GeneralKocioraw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/KingMudface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/LordRoyce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Berserker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Goliath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Sentinel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Warden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/Disciple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/Miraj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/TheCursedOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/TheRipper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GameCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GameSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GwentStoneLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/OutputBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/EmpressThorina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/GeneralKocioraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/KingMudface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/LordRoyce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Berserker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Berserker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Goliath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Goliath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Sentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Sentinel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Warden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Warden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/Disciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/Miraj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/TheCursedOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/TheRipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +127,8 @@
       <workItem from="1730748248673" duration="2242000" />
       <workItem from="1730928051500" duration="3058000" />
       <workItem from="1730931174659" duration="189000" />
-      <workItem from="1730967031256" duration="9759000" />
+      <workItem from="1730967031256" duration="18630000" />
+      <workItem from="1731143666900" duration="8223000" />
     </task>
     <servers />
   </component>

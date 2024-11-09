@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import checker.CheckerConstants;
 import fileio.Input;
-import gwentstone_lite.GwentStoneLite;
+import gwentstonelite.GwentStoneLite;
 
 import java.io.File;
 import java.io.IOException;
