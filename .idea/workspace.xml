@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkstyle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/checkstyle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Action.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GameSession.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/GwentStoneLite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/OutputBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/Card.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/EmpressThorina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/GeneralKocioraw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/KingMudface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/heroes/LordRoyce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Berserker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Goliath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Sentinel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/minions/Warden.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/Disciple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/Miraj.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/TheCursedOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/gwentstone_lite/cards/special_cards/TheRipper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tema0/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tema0/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Action.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/Action.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GameCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GameSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GameSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/GwentStoneLite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/GwentStoneLite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/OutputBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/OutputBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/EmpressThorina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/EmpressThorina.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/GeneralKocioraw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/GeneralKocioraw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/KingMudface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/KingMudface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/heroes/LordRoyce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/heroes/LordRoyce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Berserker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Berserker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Goliath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Goliath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Sentinel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Sentinel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/minions/Warden.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/minions/Warden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Disciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/Disciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/Miraj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/Miraj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheCursedOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/TheCursedOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gwentstone_lite/cards/special_cards/TheRipper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/gwentstonelite/cards/special_cards/TheRipper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oOkw1ZFQE0lQIJ5bE1I9BuApwE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Main" />
+      <module name="tema0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d90f338f-6304-4338-b180-0e8c0d80fce6" name="Changes" comment="" />
+      <created>1730748247528</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730748247528</updated>
+      <workItem from="1730748248673" duration="2242000" />
+      <workItem from="1730928051500" duration="3058000" />
+      <workItem from="1730931174659" duration="189000" />
+      <workItem from="1730967031256" duration="18630000" />
+      <workItem from="1731143666900" duration="8223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

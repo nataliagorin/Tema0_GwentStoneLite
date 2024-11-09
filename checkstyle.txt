@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 Error: Unable to access jarfile src/checker/checkstyle-8.36.2-all.jar
+=======
+Starting audit...
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstonelite\cards\special_cards\TheRipper.java:58:5: Missing a Javadoc comment. [MissingJavadocMethod]
+[ERROR] D:\facultate\sem1\poo\teme\tema0\.\src\gwentstonelite\cards\special_cards\TheRipper.java:69:5: Missing a Javadoc comment. [MissingJavadocMethod]
+Audit done.
+Checkstyle ends with 2 errors.
+>>>>>>> 811ce849d82ab46d346148412da91d85b20ac756
